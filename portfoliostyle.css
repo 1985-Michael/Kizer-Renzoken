@@ -53,11 +53,29 @@ div {
            
 }
 
+.pictures {
+    background-color: white;
+    height: 160px;
+    width: 160px;
+    float: left;
+    margin: 8px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.pictures:hover {
+    transform: scale(1.4);
+
+}
+
 main {
-    max-width: 960px;
+    max-width: 915px;
+    height: 100vem;
     margin: auto;
     margin-top: 90px;
-    display: block;
     padding: 20px;
     background-color: white;
     border-width: 0px 0px 5px 5px;
@@ -65,12 +83,8 @@ main {
     border-color: #4aaaa5;
     border-radius: 20px;
     box-shadow: 10px 11px 12px 0px #adcaca; 
+    position: absolute;
 
-}
-
-img {
-    border-radius: 25%;
-    
 }
 
 header {
